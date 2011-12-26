@@ -18,9 +18,9 @@ MVC jest wzorcem architektury oprogramowania dla aplikacji z graficznym interfej
 użytkownika, który oddziela logikę aplikacji, prezentację i wejście. Ma on swoje
 korzenie w Smalltalk-80.
 
-			.-------------.    .-------.    .-------.
+	    .-------------.    .-------.    .-------.
   Wejście-> |  Kontroler  | -> | Model | -> | Widok | -> Wyjście
-			'-------------'    '-------'    '-------'
+	    '-------------'    '-------'    '-------'
 
 Nieznacznie  zmodyfikowana wersja tego schematu przenosząca część logiki aplikacji do C<kontrolera>
 jest w dzisiejszych czasach podstawą wielu web frameworków, włącznie z L<Mojolicious>.
